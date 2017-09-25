@@ -1,0 +1,38 @@
+{
+  "name": "GastoLibro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --history-api-fallback --open",
+    "build": "./node_modules/.bin/webpack -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate/issues"
+  },
+  "homepage": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
